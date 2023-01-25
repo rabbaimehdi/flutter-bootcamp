@@ -111,7 +111,7 @@ class SigninScreen extends StatelessWidget {
               ),
               TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: Colors.orange,
+                    backgroundColor: Color(0xfff77546),
                     foregroundColor: Colors.white,
                     padding:
                         EdgeInsets.symmetric(horizontal: 130, vertical: 20),
@@ -129,26 +129,31 @@ class SigninScreen extends StatelessWidget {
                   Container(
                     width: 35,
                     height: 35,
+                    padding: EdgeInsets.all(2),
                     decoration: BoxDecoration(
-                        color: Colors.grey, shape: BoxShape.circle),
+                        color: Color(0xffeeeff1), shape: BoxShape.circle),
+                    child: Image.asset('assets/icons/001-google.png'),
                   ),
                   SizedBox(width: 10),
                   Container(
                     width: 35,
                     height: 35,
                     decoration: BoxDecoration(
-                        color: Colors.grey, shape: BoxShape.circle),
+                        color: Color(0xffeeeff1), shape: BoxShape.circle),
+                    child: Image.asset('assets/icons/002-facebook.png'),
                   ),
                   SizedBox(width: 10),
                   Container(
                     width: 35,
                     height: 35,
+                    padding: EdgeInsets.all(2),
                     decoration: BoxDecoration(
-                        color: Colors.grey, shape: BoxShape.circle),
+                        color: Color(0xffeeeff1), shape: BoxShape.circle),
+                    child: Image.asset('assets/icons/003-twitter.png'),
                   )
                 ],
               ),
-              SizedBox(height: 10),
+              SizedBox(height: 20),
               Row(
                 children: [
                   Text(
@@ -158,7 +163,7 @@ class SigninScreen extends StatelessWidget {
                   ),
                   Text(
                     " Sign Up",
-                    style: TextStyle(color: Colors.orange),
+                    style: TextStyle(color: Color(0xfff77546)),
                     textAlign: TextAlign.center,
                   ),
                 ],
