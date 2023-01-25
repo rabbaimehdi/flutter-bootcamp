@@ -16,7 +16,7 @@ class OnboardingScreen extends StatelessWidget {
           Text(
             "TOKOTO",
             style: TextStyle(
-                color: Colors.orange,
+                color: Color(0xfff77546),
                 fontSize: 27,
                 fontWeight: FontWeight.bold),
           ),
@@ -44,7 +44,8 @@ class OnboardingScreen extends StatelessWidget {
           Container(
             height: 400,
             width: 300,
-            color: Colors.orange,
+            color: Color(0xfff77546),
+            child: Image.asset("/images/o2.png"),
           ),
           SizedBox(
             height: 30,
@@ -54,7 +55,7 @@ class OnboardingScreen extends StatelessWidget {
               width: 5,
               height: 5,
               decoration: BoxDecoration(
-                color: Colors.orange,
+                color: Color(0xfff77546),
                 shape: BoxShape.circle,
               ),
             ),
@@ -62,7 +63,7 @@ class OnboardingScreen extends StatelessWidget {
               width: 5,
               height: 5,
               decoration: BoxDecoration(
-                color: Colors.orange,
+                color: Color(0xfff77546),
                 shape: BoxShape.circle,
               ),
             ),
@@ -70,7 +71,7 @@ class OnboardingScreen extends StatelessWidget {
               width: 5,
               height: 5,
               decoration: BoxDecoration(
-                color: Colors.orange,
+                color: Color(0xfff77546),
                 shape: BoxShape.circle,
               ),
             )
@@ -80,7 +81,7 @@ class OnboardingScreen extends StatelessWidget {
           ),
           TextButton(
               style: TextButton.styleFrom(
-                backgroundColor: Colors.orange,
+                backgroundColor: Color(0xfff77546),
                 foregroundColor: Colors.white,
                 padding: EdgeInsets.symmetric(horizontal: 130, vertical: 20),
                 shape: RoundedRectangleBorder(
