@@ -16,6 +16,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        fontFamily:
+            "Ubuntu", //apply this font in all text unless the font is precised
         primarySwatch: Colors.orange,
       ),
       home: const OnboardingScreen(),
