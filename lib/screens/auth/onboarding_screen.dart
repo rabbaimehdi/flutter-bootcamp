@@ -25,7 +25,10 @@ class OnboardingScreen extends StatelessWidget {
           ),
           Row(
             children: [
-              Text("Welcome to", style: TextStyle(color: Colors.grey)),
+              Text("Welcome to",
+                  style: TextStyle(
+                    color: Colors.grey,
+                  )),
               Text(
                 " Tokoto",
                 style:
@@ -44,35 +47,41 @@ class OnboardingScreen extends StatelessWidget {
           Container(
             height: 400,
             width: 300,
-            color: Color(0xfff77546),
-            child: Image.asset("/images/o2.png"),
+            // color: Color(0xfff77546),
+            child: Image.asset("/images/splash_1.png"),
           ),
           SizedBox(
             height: 30,
           ),
           Row(children: [
             Container(
-              width: 5,
+              width: 15,
               height: 5,
               decoration: BoxDecoration(
                 color: Color(0xfff77546),
-                shape: BoxShape.circle,
+                borderRadius: BorderRadius.circular(3),
               ),
+            ),
+            SizedBox(
+              width: 4,
             ),
             Container(
               width: 5,
               height: 5,
               decoration: BoxDecoration(
-                color: Color(0xfff77546),
-                shape: BoxShape.circle,
+                color: Color.fromARGB(255, 220, 220, 221),
+                borderRadius: BorderRadius.circular(3),
               ),
+            ),
+            SizedBox(
+              width: 4,
             ),
             Container(
               width: 5,
               height: 5,
               decoration: BoxDecoration(
-                color: Color(0xfff77546),
-                shape: BoxShape.circle,
+                color: Color.fromARGB(255, 220, 220, 221),
+                borderRadius: BorderRadius.circular(3),
               ),
             )
           ], mainAxisAlignment: MainAxisAlignment.center),
@@ -83,7 +92,7 @@ class OnboardingScreen extends StatelessWidget {
               style: TextButton.styleFrom(
                 backgroundColor: Color(0xfff77546),
                 foregroundColor: Colors.white,
-                padding: EdgeInsets.symmetric(horizontal: 130, vertical: 20),
+                padding: EdgeInsets.symmetric(horizontal: 130, vertical: 21),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(15)),
               ), //better than ButtonStyle cuz it removes all styles
