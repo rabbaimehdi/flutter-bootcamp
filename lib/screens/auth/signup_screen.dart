@@ -28,7 +28,7 @@ class SignupScreen extends StatelessWidget {
                       color: Colors.grey,
                       fontSize: 15,
                       fontWeight: FontWeight.w500,
-                      fontFamily: "Ubuntu",
+                      //     fontFamily: "Ubuntu",
                     ),
                   ),
                   Icon(
